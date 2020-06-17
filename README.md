@@ -28,7 +28,7 @@ year = {2020}
 * DukeMTMC-reID ([Project](https://github.com/lightas/Occluded-DukeMTMC-Dataset))
 
 
-### Pre-trained Model 
+### Trained Model 
 * [BaiDuDisk](https://pan.baidu.com/s/10TQ221aPz5-FMaW2YP2NJw) (pwd:fgit)
 * Google Drive (comming soon)
 
@@ -39,7 +39,7 @@ python main.py --mode train \
 --output_path ./results 
 ```
 
-### Test with Pre-trained Model
+### Test with Trained Model
 ```
 python main.py --mode test \
 --resume_test_path path/to/pretrained/model --resume_test_epoch 119 \
