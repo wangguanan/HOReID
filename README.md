@@ -6,7 +6,7 @@
 
 2020-04-01: Happy April's Fool Day!!! Code is comming soon.
 
-## Bibtex
+### Bibtex
 If you find the code useful, please consider citing our paper:
 ```
 @InProceedings{wang2020cvpr,
@@ -18,27 +18,27 @@ year = {2020}
 }
 ```
 
-## Dependencies
+### Dependencies
 * [Anaconda (Python 3.7)](https://www.anaconda.com/download/)
 * [PyTorch 1.1.0](http://pytorch.org/)
 * GPU Memory >= 10G, Memory >= 20G
 
 
-## Dataset Preparation
+### Dataset Preparation
 * DukeMTMC-reID ([Project](https://github.com/lightas/Occluded-DukeMTMC-Dataset))
 
 
-#### Pre-trained Model 
+### Pre-trained Model 
 * [BaiDuDisk](https://pan.baidu.com/s/10TQ221aPz5-FMaW2YP2NJw) (pwd:fgit)
 
-#### Train
+### Train
 ```
 python main.py --mode train \
 --duke_path path/to/occluded/duke \
 --output_path ./results 
 ```
 
-#### Test with Pre-trained Model
+### Test with Pre-trained Model
 ```
 python main.py --mode test \
 --resume_test_path path/to/pretrained/model --resume_test_epoch 119 \
