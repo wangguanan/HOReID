@@ -30,6 +30,7 @@ year = {2020}
 
 ### Pre-trained Model 
 * [BaiDuDisk](https://pan.baidu.com/s/10TQ221aPz5-FMaW2YP2NJw) (pwd:fgit)
+* Google Drive (comming soon)
 
 ### Train
 ```
