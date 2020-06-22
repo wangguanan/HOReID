@@ -128,7 +128,7 @@ _C.TEST.BBOX_THRE = 1.0
 _C.TEST.MODEL_FILE = ''
 # _C.TEST.MODEL_FILE = '/data/model_zoo/skeleton/pose_coco/pose_resnet_50_256x192.pth.tar'
 # _C.TEST.MODEL_FILE = '/data/model_zoo/skeleton/pose_coco/pose_hrnet_w48_256x192.pth'
-_C.TEST.MODEL_FILE = '/data/projects/20190531_Partial-ReID-Skeleton-Feature-Alignment-ReID/datasets/coco/pose_hrnet_w48_256x192.pth'
+_C.TEST.MODEL_FILE = './core/models/model_keypoints/pose_hrnet_w48_256x192.pth'
 
 # debug
 _C.DEBUG = CN()

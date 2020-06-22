@@ -18,14 +18,18 @@ year = {2020}
 }
 ```
 
-### Dependencies
-* [Anaconda (Python 3.7)](https://www.anaconda.com/download/)
-* [PyTorch 1.1.0](http://pytorch.org/)
-* GPU Memory >= 10G, Memory >= 20G
+### Set Up
+```shell script
+conda create -n horeid python=3.7
+conda activate horeid
+conda install pytorch==1.1.0 torchvision==0.3.0 -c pytorch
+# GPU Memory >= 10G, Memory >= 20G
+```
 
 
-### Dataset Preparation
-* DukeMTMC-reID ([Project](https://github.com/lightas/Occluded-DukeMTMC-Dataset))
+### Preparation
+* Dataset: Occluded DukeMTMC-reID ([Project](https://github.com/lightas/Occluded-DukeMTMC-Dataset))
+* Pre-trained Pose Model ([pose_hrnet_w48_256x192.pth](https://drive.google.com/drive/folders/13_wJ6nC7my1KKouMkQMqyr9r1ZnLnukP), please download it to path ```./core/models/model_keypoints/pose_hrnet_w48_256x192.pth```)
 
 
 ### Trained Model 
