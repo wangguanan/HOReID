@@ -29,7 +29,8 @@ conda install pytorch==1.1.0 torchvision==0.3.0 -c pytorch
 
 ### Preparation
 * Dataset: Occluded DukeMTMC-reID ([Project](https://github.com/lightas/Occluded-DukeMTMC-Dataset))
-* Pre-trained Pose Model ([pose_hrnet_w48_256x192.pth](https://drive.google.com/drive/folders/13_wJ6nC7my1KKouMkQMqyr9r1ZnLnukP), please download it to path ```./core/models/model_keypoints/pose_hrnet_w48_256x192.pth```)
+* Pre-trained Pose Model ([pose_hrnet_w48_256x192.pth](https://drive.google.com/drive/folders/1hOTihvbyIxsm5ygDpbUuJ7O_tzv4oXjC), 
+please download it to path ```./core/models/model_keypoints/pose_hrnet_w48_256x192.pth```)
 
 
 ### Trained Model 
