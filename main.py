@@ -56,7 +56,7 @@ def main(config):
 			_, results = train_an_epoch(config, base, loaders, current_epoch)
 			logger('Time: {};  Epoch: {};  {}'.format(time_now(), current_epoch, results))
 		# test
-		testwithVer2(config, logger, base, loaders, 'duke', use_gcn=True)
+		testwithVer2(config, logger, base, loaders, 'duke', use_gcn=True, use_gm=True)
 
 
 	elif config.mode == 'test':	# test mode
