@@ -2,7 +2,7 @@
 [CVPR2020] High-Order Information Matters: Learning Relation and Topology for Occluded Person Re-Identification. [paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Wang_High-Order_Information_Matters_Learning_Relation_and_Topology_for_Occluded_Person_CVPR_2020_paper.html)
 
 ### Update
-2020-12: We release a strong baseline for Occluded Re-ID. [link](https://github.com/wangguanan/light-reid/tree/master/examples/occluded_reid)
+2020-12: We release a strong pipeline for occluded/partial reid. [link](https://github.com/wangguanan/light-reid/tree/master/examples/occluded_reid)
 
 2020-06-16: Update Code.
 
