@@ -53,6 +53,11 @@ python main.py --mode test \
 --duke_path path/to/occluded/duke --output_path ./results
 ```
 
+## License
+
+This repo is released under the MIT License.
+
+
 ## Contacts
 If you have any question about the project, please feel free to contact me.
 
